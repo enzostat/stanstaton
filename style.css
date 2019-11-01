@@ -11,6 +11,7 @@ body {
 	background-color: #c0c0c0;
 	justify-content: center;
 	align-items: baseline;
+	font-family: 'Roboto Mono', monospace;
 
 }
 
@@ -57,6 +58,7 @@ main {
 img {
 	height: 300px;
 	width: 600px;
+	border-radius: 10px;
 }
 
 footer {
@@ -109,4 +111,27 @@ footer {
 	width: 40vw;
 	padding: 20px;
 	margin: 10px;
+}
+
+.about {
+	text-align: center;
+	width: 40vw;
+	height: auto;
+	display: inline-block;
+	/*justify-content: center;*/
+	align-self: center;
+	/*align-items: center;*/
+	/*align-content: center;*/
+}
+
+.parent {
+	text-align: center;
+}
+
+i {
+	font-size: 50px;
+}
+
+p {
+	/*text-align: center;*/
 }
